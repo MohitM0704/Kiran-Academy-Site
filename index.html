@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Kiran Academy — job-ready IT training, practical projects and placement support.">
+  <title>The Kiran Academy | Learn. Build. Get Hired.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>🎓 Admissions open for upcoming batches</span>
+      <a href="#contact">Book a free counselling session →</a>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="The Kiran Academy home">
+        <span class="brand-mark">K</span>
+        <span><strong>KIRAN</strong><small>ACADEMY</small></span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <nav id="navMenu">
+        <a href="#courses">Courses</a>
+        <a href="#journey">How it works</a>
+        <a href="#placements">Placements</a>
+        <a href="#locations">Branches</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="#contact">Book Free Demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> Job-ready IT training since 2012</div>
+          <h1>Turn your skills into your <em>next career move.</em></h1>
+          <p class="hero-text">Learn with practical projects, industry-focused mentors, mock interviews and dedicated placement support — online or in the classroom.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Book Free Demo <span>→</span></a>
+            <a class="btn btn-ghost" href="#courses"><span class="play">▶</span> Explore courses</a>
+          </div>
+          <div class="trust-row">
+            <div><strong>25K+</strong><span>Students</span></div>
+            <div><strong>1,750+</strong><span>Hiring partners</span></div>
+            <div><strong>4.8/5</strong><span>Google rating</span></div>
+          </div>
+        </div>
+        <div class="hero-card-wrap">
+          <div class="floating-chip chip-top">✦ Practical learning</div>
+          <div class="hero-card">
+            <div class="card-label">YOUR CAREER PATH</div>
+            <h3>Learn → Build → Prepare → Launch</h3>
+            <div class="path">
+              <div class="path-item active"><span>01</span><div><b>Learn</b><small>Industry skills</small></div></div>
+              <div class="path-line"></div>
+              <div class="path-item"><span>02</span><div><b>Build</b><small>Real projects</small></div></div>
+              <div class="path-line"></div>
+              <div class="path-item"><span>03</span><div><b>Prepare</b><small>Interview practice</small></div></div>
+              <div class="path-line"></div>
+              <div class="path-item"><span>04</span><div><b>Launch</b><small>Placement support</small></div></div>
+            </div>
+            <div class="hero-note"><span>✓</span> Portfolio-first learning</div>
+          </div>
+          <div class="floating-chip chip-bottom">⚡ Small batches</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div><strong>14+</strong><span>Years of training</span></div>
+        <div><strong>4</strong><span>Branches + online</span></div>
+        <div><strong>3+</strong><span>Project experiences</span></div>
+        <div><strong>15+</strong><span>Mock interview rounds</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="courses">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">COURSES</div>
+            <h2>Choose a path. <span>Build a future.</span></h2>
+          </div>
+          <p>Career-focused programs designed around the skills, tools and workflows used in modern software teams.</p>
+        </div>
+
+        <div class="filter-row" id="filters">
+          <button class="filter active" data-filter="all">All courses</button>
+          <button class="filter" data-filter="development">Development</button>
+          <button class="filter" data-filter="data">Data & AI</button>
+          <button class="filter" data-filter="testing">Testing</button>
+          <button class="filter" data-filter="specialized">Specialized</button>
+        </div>
+
+        <div class="course-grid" id="courseGrid">
+          <article class="course-card" data-category="development">
+            <div class="course-icon orange">☕</div><span class="pill">PLACEMENT ORIENTED</span>
+            <h3>Java Full Stack Development</h3><p>Core Java, Spring Boot, Hibernate, REST APIs, front-end basics, MySQL and deployable projects.</p>
+            <div class="tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span></div>
+            <div class="course-bottom"><span>6 months</span><a href="#contact" data-course="Java Full Stack Development">Enquire →</a></div>
+          </article>
+          <article class="course-card featured" data-category="development">
+            <div class="course-icon green">🐍</div><span class="pill">POPULAR</span>
+            <h3>Python Full Stack Development</h3><p>Python, Django/Flask, databases, REST APIs and front-end skills with portfolio projects.</p>
+            <div class="tags"><span>Python</span><span>Django</span><span>SQL</span></div>
+            <div class="course-bottom"><span>6 months</span><a href="#contact" data-course="Python Full Stack Development">Enquire →</a></div>
+          </article>
+          <article class="course-card" data-category="data">
+            <div class="course-icon blue">📊</div><span class="pill">DATA & AI</span>
+            <h3>Data Science & Machine Learning</h3><p>Python, statistics, ML, model building, data wrangling, visualization and applied projects.</p>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>ML</span></div>
+            <div class="course-bottom"><span>6 months</span><a href="#contact" data-course="Data Science & Machine Learning">Enquire →</a></div>
+          </article>
+          <article class="course-card" data-category="data">
+            <div class="course-icon purple">📈</div><span class="pill">DATA & AI</span>
+            <h3>Data Analytics</h3><p>Excel, SQL, Python basics, Power BI, dashboards and reporting workflows for analyst roles.</p>
+            <div class="tags"><span>Excel</span><span>SQL</span><span>Power BI</span></div>
+            <div class="course-bottom"><span>4 months</span><a href="#contact" data-course="Data Analytics">Enquire →</a></div>
+          </article>
+          <article class="course-card" data-category="testing">
+            <div class="course-icon red">⌁</div><span class="pill">QA CAREER</span>
+            <h3>Software Testing</h3><p>Manual testing, Selenium automation, TestNG, Jira, API testing and real QA workflows.</p>
+            <div class="tags"><span>Selenium</span><span>Java</span><span>Postman</span></div>
+            <div class="course-bottom"><span>4 months</span><a href="#contact" data-course="Software Testing">Enquire →</a></div>
+          </article>
+          <article class="course-card" data-category="development">
+            <div class="course-icon cyan">⚛</div><span class="pill">SPECIALIZED</span>
+            <h3>MERN Full Stack Development</h3><p>React, Node.js, Express, MongoDB, APIs and modern deployment workflows.</p>
+            <div class="tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+            <div class="course-bottom"><span>5 months</span><a href="#contact" data-course="MERN Full Stack Development">Enquire →</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="program-banner">
+      <div class="container banner-grid">
+        <div><span class="mini-label">FLAGSHIP PROGRAM</span><h2>Full-Day Master Program</h2><p>6–7 hours on campus with dedicated guidance, real projects, mock interviews and professional grooming.</p></div>
+        <a class="btn btn-light" href="#contact">Reserve a counselling call →</a>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="journey">
+      <div class="container">
+        <div class="section-head centered">
+          <div class="eyebrow">THE KIRAN METHOD</div>
+          <h2>From first class to <span>career launch.</span></h2>
+          <p>A structured learning journey that connects technical training with interview readiness and placement preparation.</p>
+        </div>
+        <div class="journey-grid">
+          <div class="journey-step"><div class="number">01</div><div class="step-icon">🎯</div><h3>Industry-led training</h3><p>Learn practical concepts, tools and coding patterns through guided sessions.</p></div>
+          <div class="journey-step"><div class="number">02</div><div class="step-icon">🧩</div><h3>Build real projects</h3><p>Create portfolio-ready applications that demonstrate what you can actually build.</p></div>
+          <div class="journey-step"><div class="number">03</div><div class="step-icon">🎤</div><h3>Mock interviews</h3><p>Practice technical, coding and HR rounds with structured feedback.</p></div>
+          <div class="journey-step"><div class="number">04</div><div class="step-icon">🚀</div><h3>Placement support</h3><p>Resume preparation, interview guidance and connections with hiring opportunities.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-section" id="placements">
+      <div class="container placement-grid">
+        <div>
+          <div class="eyebrow light">CAREER SUPPORT</div>
+          <h2>More than a course.<br><span>A complete job journey.</span></h2>
+          <p>Training is only one part of becoming job-ready. The experience is designed to take you from learning fundamentals to presenting your skills confidently.</p>
+          <div class="check-list">
+            <div>✓ Resume and profile preparation</div>
+            <div>✓ Technical + HR mock interviews</div>
+            <div>✓ Project deep-dive preparation</div>
+            <div>✓ Interview-specific guidance</div>
+          </div>
+        </div>
+        <div class="placement-panel">
+          <div class="panel-top"><span>PLACEMENT ECOSYSTEM</span><b>01</b></div>
+          <div class="company-cloud"><span>Infosys</span><span>TCS</span><span>Accenture</span><span>Capgemini</span><span>Tech Mahindra</span><span>Wipro</span><span>Startups</span><span>Product teams</span></div>
+          <div class="panel-note">Hiring relationships and opportunities can vary by batch, role and eligibility.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section-head centered">
+          <div class="eyebrow">STUDENT STORIES</div><h2>Learning that <span>moves with you.</span></h2>
+        </div>
+        <div class="testimonial-grid">
+          <article><div class="quote">“</div><p>The practical approach helped me understand how concepts are actually used in projects. The interview practice gave me a clear routine.</p><div class="person"><span>AS</span><div><b>Aditya S.</b><small>Software Developer</small></div></div></article>
+          <article><div class="quote">“</div><p>I liked the combination of classroom learning, projects and regular feedback. It made my preparation much more structured.</p><div class="person"><span>PR</span><div><b>Priya R.</b><small>Data Analyst</small></div></div></article>
+          <article><div class="quote">“</div><p>The mock interview rounds made technical discussions feel much less unfamiliar. The mentors focused on practical improvement.</p><div class="person"><span>RK</span><div><b>Rahul K.</b><small>Java Developer</small></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section locations" id="locations">
+      <div class="container">
+        <div class="section-head">
+          <div><div class="eyebrow">LEARN YOUR WAY</div><h2>Classroom or <span>online.</span></h2></div>
+          <p>Choose a branch near you or join live online with the same learning-first approach.</p>
+        </div>
+        <div class="location-grid">
+          <article><span>📍</span><h3>Karvenagar</h3><p>Park Plaza, State Bank Nagar, Karvenagar, Pune</p><a href="tel:+918888809416">+91 88888 09416</a></article>
+          <article><span>📍</span><h3>Hadapsar</h3><p>Pune–Solapur Road, Hadapsar Gaon, Pune</p><a href="tel:+919673107070">+91 96731 07070</a></article>
+          <article><span>📍</span><h3>Chinchwad</h3><p>Chinchwad Station Road, Pimpri-Chinchwad, Pune</p><a href="tel:+918857055009">+91 88570 55009</a></article>
+          <article><span>📍</span><h3>Nagpur</h3><p>Mankapur Ring Road, Chatrapati Nagar, Nagpur</p><a href="tel:+919529204783">+91 95292 04783</a></article>
+          <article class="online"><span>💻</span><h3>Live Online</h3><p>Join from anywhere in India with live interactive sessions.</p><a href="#contact">Enquire online →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+      <div class="container faq-grid">
+        <div><div class="eyebrow">FAQ</div><h2>Questions?<br><span>Start here.</span></h2><p>Still unsure? Talk to a counsellor for course, fee and batch guidance.</p><a class="btn btn-primary" href="#contact">Talk to a counsellor →</a></div>
+        <div class="accordion">
+          <details open><summary>Are classes online or classroom?<span>+</span></summary><p>Both options can be available depending on the course and batch. Contact the academy for the current schedule.</p></details>
+          <details><summary>How do I choose the right course?<span>+</span></summary><p>Consider your current skills, target role, preferred technology and available time. A counselling session can help map these to a course.</p></details>
+          <details><summary>Do courses include projects?<span>+</span></summary><p>Project-based learning is a core part of the redesigned course experience, with practical work aligned to the chosen track.</p></details>
+          <details><summary>Is placement guaranteed?<span>+</span></summary><p>Placement support and hiring assistance are provided, but employment depends on individual eligibility, performance and available roles.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-card">
+        <div><div class="eyebrow light">START HERE</div><h2>Ready to build your<br><span>next chapter?</span></h2><p>Book a free counselling session. No payment. No obligation.</p></div>
+        <form id="leadForm">
+          <div class="input-row"><input id="name" required placeholder="Your name"><input id="phone" required pattern="[0-9+ ()-]{10,}" placeholder="Phone number"></div>
+          <select id="course" required><option value="">Select your course</option><option>Java Full Stack Development</option><option>Python Full Stack Development</option><option>Data Science & Machine Learning</option><option>Data Analytics</option><option>Software Testing</option><option>MERN Full Stack Development</option></select>
+          <button class="btn btn-light full" type="submit">Request Free Counselling →</button>
+          <small>By submitting, you agree to be contacted regarding courses and counselling.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="#home"><span class="brand-mark">K</span><span><strong>KIRAN</strong><small>ACADEMY</small></span></a><p>Practical IT training for students and professionals building their next career move.</p></div>
+      <div><h4>Explore</h4><a href="#courses">Courses</a><a href="#journey">How it works</a><a href="#placements">Placements</a></div>
+      <div><h4>Support</h4><a href="#contact">Free counselling</a><a href="#faq">FAQ</a><a href="#locations">Branches</a></div>
+      <div><h4>Contact</h4><a href="tel:+918888809416">+91 88888 09416</a><a href="mailto:info@thekiranacademy.com">info@thekiranacademy.com</a><span>Pune & Nagpur · Online</span></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 The Kiran Academy. Redesigned concept.</span><span>Learn. Build. Launch.</span></div>
+  </footer>
+
+  <div class="toast" id="toast">Thanks! Your counselling request has been captured.</div>
+  <script src="script.js"></script>
+</body>
+</html>
